@@ -1,0 +1,19 @@
+package com.example.pazyniak_spring.dto;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class ActorDto {
+    private Integer id;
+    private String firstName;
+    private String secondName;
+    private Integer rating;
+
+}
